@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<application xmlns="http://ns.adobe.com/air/application/21.0">
+  <id>com.fancynode.pxcook</id>
+  <filename>PxCook</filename>
+  <name>PxCook</name>
+  <versionNumber>3.8.8</versionNumber>
+  <versionLabel>v3.8.8 Beta</versionLabel>
+  <description>
+    <text xml:lang="en">最高效易用的自动标注工具，设计研发协作利器</text>
+    <text xml:lang="zh">最高效易用的自动标注工具，设计研发协作利器</text>
+  </description>
+  <copyright>FancyNode</copyright>
+  <initialWindow>
+    <content>PxCook.swf</content>
+    <title>PxCook</title>
+    <systemChrome>none</systemChrome>
+    <transparent>true</transparent>
+    <renderMode>gpu</renderMode>
+    <requestedDisplayResolution>high</requestedDisplayResolution>
+    <autoOrients>false</autoOrients>
+    <fullScreen>false</fullScreen>
+    <visible>false</visible>
+  </initialWindow>
+  <icon>
+    <image16x16>assets/common/icon/icon16.png</image16x16>
+    <image32x32>assets/common/icon/icon32.png</image32x32>
+    <image36x36>assets/common/icon/icon36.png</image36x36>
+    <image48x48>assets/common/icon/icon48.png</image48x48>
+    <image72x72>assets/common/icon/icon72.png</image72x72>
+    <image128x128>assets/common/icon/icon128.png</image128x128>
+  </icon>
+  <fileTypes>
+    <fileType>
+      <name>com.fancynode.pxcookfile</name>
+      <extension>pxc</extension>
+      <description>PxCook File Type</description>
+      <contentType>application/octet-stream</contentType>
+      <icon>
+        <image16x16>assets/common/fileicons/pxc_16.png</image16x16>
+        <image32x32>assets/common/fileicons/pxc_32.png</image32x32>
+        <image48x48>assets/common/fileicons/pxc_48.png</image48x48>
+        <image128x128>assets/common/fileicons/pxc_128.png</image128x128>
+      </icon>
+    </fileType>
+    <fileType>
+      <name>com.fancynode.pxcookprojectfile</name>
+      <extension>pxcp</extension>
+      <description>PxCook Project File Type</description>
+      <contentType>application/octet-stream</contentType>
+      <icon>
+        <image16x16>assets/common/fileicons/pxcp_16.png</image16x16>
+        <image32x32>assets/common/fileicons/pxcp_32.png</image32x32>
+        <image48x48>assets/common/fileicons/pxcp_48.png</image48x48>
+        <image128x128>assets/common/fileicons/pxcp_128.png</image128x128>
+      </icon>
+    </fileType>
+  </fileTypes>
+</application>
